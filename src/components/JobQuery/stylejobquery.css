@@ -1,0 +1,128 @@
+.container {
+    display: flex;
+    justify-content: flex-end
+}
+.aside {
+    margin-top: 5%;
+    width: 30%;
+    height: auto;
+    
+
+}
+.info {
+    margin-top: 10%;
+    width: 70%;
+    padding: 5px;
+
+}
+
+.labelfilter {
+  font-size: xx-small;
+} 
+
+.card {
+    display: flex;
+    overflow: hidden;
+    padding: 5px;
+    
+}
+
+.card .cardunidad {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 1px 6px 12px 5px;
+  border: 1px solid transparent;
+  height: auto;
+  -webkit-box-shadow: 0 2px 2px -1px rgba(50, 50, 93, 0.25),
+    0 1px 3px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 2px -1px rgba(50, 50, 93, 0.25),
+    0 1px 3px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card .cardimage {
+  overflow: hidden;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.card .cardtexto {
+  cursor: pointer;
+  color: #2979ff;
+}
+
+.texto {
+    color: #000;
+    font-size: small;
+  }
+
+.card .cardtexto .name {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+  background-color: #000;
+  padding-left: 10px;
+}
+
+.card .cardtexto .title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  background-color: #000;
+  padding-left: 10px;
+}
+
+.card .cardtexto .certificate {
+  color: #1d448e;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+.card .cardtexto .stars {
+  display: flex;
+  overflow: hidden;
+  color: gold;
+
+}
+
+.card .cardtexto .stars .calificacion {
+  color: #000;
+  font-weight: bold;
+
+}
+ .infojob {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+    color: #000;
+    padding: 0;
+    
+}
+
+.detailjob {
+  display: flex;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.bill {
+  width: 50%;
+  padding: 5px;
+}
+
+table {
+  font-size: 0.6em; /* Ajusta el tamaño según tus necesidades */
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.query {
+  width: 100vw;
+}
